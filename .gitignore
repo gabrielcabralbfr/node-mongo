@@ -31,8 +31,7 @@ local.properties
 .buildpath
 
 node_modules/
-
-node-mongo-intro/data/
+src/data/
 
 #################
 ## Visual Studio
