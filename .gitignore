@@ -32,6 +32,8 @@ local.properties
 
 node_modules/
 
+node-mongo-intro/data/
+
 #################
 ## Visual Studio
 #################
@@ -152,4 +154,4 @@ ClientBin/
 *.dbmdl
 *.[Pp]ublish.xml
 *.pfx
-*.publishsettings
+*.publishsettingsdata/
