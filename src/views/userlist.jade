@@ -1,8 +1,11 @@
 extends layout
 
 block content
-  
-h3 Nomes
-ul 
-  each user in userlist
-   li= user
+
+  h1= title
+  p Welcome to #{title}
+
+
+  ul
+  each val, index in teste
+    li= index + ': ' + val.name

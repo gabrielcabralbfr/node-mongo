@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
   res.render('index', {title: 'PAGINA DE USUARIO'});
 });
 
-router.get('/listar', function(req, res) {
+router.get('/get', function(req, res) {
   var MongoClient = mongodb.MongoClient;
   var url = 'mongodb://localhost:27017/user_db';
 
@@ -19,7 +19,7 @@ router.get('/listar', function(req, res) {
         res.send(err);
       } else if (result.length) {
         console.log(result);
-        res.render('userlist', {userlist : result})
+        res.render('userlist', {title: 'testando', teste: result})
       } else {
         res.send("Nothing found here!")
       }
