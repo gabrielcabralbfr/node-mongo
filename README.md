@@ -1,2 +1,3 @@
-# node-mongo
-NodeJS with mongoDB
+# NodJS Application
+- MongoDB
+- Jade view templates
